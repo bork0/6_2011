@@ -21,13 +21,13 @@ for (let i = 0; i<paragraph.length; i++) {
 
 // task #4;
 
-let ulList = document.getElementById('list');
-let arrayList = [];
-let ulListChildren = ulList.children;
-for (let child = 0; child<ulListChildren.length; child++) {
-    arrayList[child] = ulListChildren[child].innerHTML;
-}
-alert(arrayList);
+// let ulList = document.getElementById('list');
+// let arrayList = [];
+// let ulListChildren = ulList.children;
+// for (let child = 0; child<ulListChildren.length; child++) {
+//     arrayList[child] = ulListChildren[child].innerHTML;
+// }
+// alert(arrayList);
 
 let firstMethod = [];
 firstMethod[0] = ulList.children[0].innerHTML;
